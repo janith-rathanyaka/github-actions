@@ -8,6 +8,8 @@
          - uses: actions/setup-node@v3
            with:
              node-version: '14'
+         - name: Install node_modules
+           run: npm
          - name: Build the project
            run: npm run build-app
          - name: Setup finish
