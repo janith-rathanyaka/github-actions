@@ -11,6 +11,6 @@
          - name: Install node_modules
            run: npm install
          - name: Build the project
-           run: npm run build-app
+           run: npm run build
          - name: Setup finish
            run: "success"
