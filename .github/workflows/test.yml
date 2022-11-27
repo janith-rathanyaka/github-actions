@@ -13,4 +13,4 @@
          - name: Build the project
            run: npm run build
          - name: Setup finish
-           run: "success"
+           run: echo"success"
